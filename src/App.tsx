@@ -9,7 +9,7 @@ const AboutFounder = lazy(() => import("./components/AboutFounder"));
 const AboutBrand = lazy(() => import("./components/AboutBrand"));
 const AjrakFabrics = lazy(() => import("./components/AjrakFabrics"));
 const Services = lazy(() => import("./components/Services"));
-const Experience = lazy(() => import("./components/Experience"));
+// const Experience = lazy(() => import("./components/Experience"));
 const Testimonials = lazy(() => import("./components/Testimonials"));
 const BrandValues = lazy(() => import("./components/BrandValues"));
 const Contact = lazy(() => import("./components/Contact"));
@@ -55,9 +55,9 @@ export default function App() {
         <Suspense fallback={<LoadingSpinner />}>
           <Services />
         </Suspense>
-        <Suspense fallback={<LoadingSpinner />}>
+        {/* <Suspense fallback={<LoadingSpinner />}>
           <Experience />
-        </Suspense>
+        </Suspense> */}
         <Suspense fallback={<LoadingSpinner />}>
           <Testimonials />
         </Suspense>

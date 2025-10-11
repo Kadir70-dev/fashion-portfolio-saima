@@ -78,7 +78,7 @@ export default function BrandValues() {
               craftsmanship not only survives but thrives in the modern world."
             </blockquote>
             <cite className="text-stone-600">
-              — Saima Anjum, Founder of Miraal
+              — Saima , Founder of Miraal
             </cite>
           </div>
         </motion.div>

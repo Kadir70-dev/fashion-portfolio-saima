@@ -27,12 +27,16 @@ export default function AboutBrand() {
           >
             <div className="space-y-4 text-stone-600 leading-relaxed">
               <p>
-                Founded in 2020, Miraal represents the harmonious fusion of India's rich textile 
-                heritage with contemporary global fashion demands. Our brand story is rooted in 
-                the belief that traditional artistry and modern innovation can coexist beautifully.
+               Founded in 2020, MIRAAL redefines India’s textile heritage through a modern, global lens. 
+               We connect skilled artisans with international fashion markets, crafting authentic, handcrafted 
+               textiles that blend tradition with innovation.
+              </p>
+              <p>
+                Every MIRAAL creation tells a story of artistry, culture, and conscious design made through fair trade and sustainable practices. 
+                Our vision is to celebrate India’s timeless craftsmanship while creating a refined, ethical luxury experience for the world.
               </p>
               
-              <p>
+              {/* <p>
                 We specialize in bridging the gap between skilled Indian artisans and international 
                 fashion markets, ensuring that authentic craftsmanship finds its rightful place in 
                 the global textile trade. Our commitment extends beyond business to preserving 
@@ -50,7 +54,7 @@ export default function AboutBrand() {
                 Our vision is to create a sustainable ecosystem where traditional craftsmanship 
                 thrives in the modern world, connecting conscious consumers with authentic, 
                 ethically-made textiles that celebrate India's textile legacy.
-              </p>
+              </p> */}
             </div>
           </motion.div>
 
@@ -62,7 +66,7 @@ export default function AboutBrand() {
             className="relative"
           >
             <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-4">
+              {/* <div className="space-y-4">
                 <ImageWithFallback
                   src="https://images.unsplash.com/photo-1645620352152-af908f6524f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYW5kbWFkZSUyMHRleHRpbGUlMjBmYWJyaWMlMjBwYXR0ZXJuJTIwdHJhZGl0aW9uYWx8ZW58MXx8fHwxNzU5NjczMjA4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                   alt="Traditional textile patterns"
@@ -85,7 +89,7 @@ export default function AboutBrand() {
                   alt="Indigo patterns"
                   className="w-full h-48 object-cover rounded-lg shadow-md"
                 />
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>

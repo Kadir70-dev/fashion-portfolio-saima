@@ -17,7 +17,7 @@ export default function AboutFounder() {
             </h2>
             
             <h3 className="text-xl md:text-2xl mb-4 text-stone-700">
-              Saima Anjum
+              Saima
             </h3>
             
             <p className="text-stone-600 mb-6 leading-relaxed">
@@ -32,7 +32,7 @@ export default function AboutFounder() {
               </p>
               
               <p>
-                Having gained international exposure through her work in Dubai and Mumbai, Saima 
+                Having gained international exposure through her work in Dubai and India, Saima 
                 understands the intricate demands of global fashion trade while maintaining deep 
                 respect for traditional craftsmanship and sustainable practices.
               </p>
@@ -52,14 +52,14 @@ export default function AboutFounder() {
             viewport={{ once: true }}
             className="relative"
           >
-            <div className="relative">
+            {/* <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-br from-stone-200 to-amber-100 rounded-lg transform rotate-3"></div>
               <ImageWithFallback
                 src="https://images.unsplash.com/photo-1672512263546-99862fe07733?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB5b3VuZyUyMHdvbWFuJTIwZW50cmVwcmVuZXVyJTIwcG9ydHJhaXQlMjBidXNpbmVzc3xlbnwxfHx8fDE3NTk2NzQyNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                 alt="Saima Anjum - Founder of Miraal"
                 className="relative z-10 w-full h-96 object-cover rounded-lg shadow-xl"
               />
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>

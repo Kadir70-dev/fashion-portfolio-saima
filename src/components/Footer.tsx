@@ -8,10 +8,13 @@ export default function Footer() {
           
           {/* Brand */}
           <div>
-            <h3 className="logo-font text-2xl text-white mb-4">
+            <h3 className="logo-font text-2xl text-white mb-2">
               MIRAAL
               <div className="text-sm tracking-[0.3em] font-light">BY SAIMA SHAIKH</div>
             </h3>
+            <p className="text-green-400 uppercase tracking-widest font-semibold mb-4">
+              GLOBAL TEXTILE
+            </p>
             <p className="text-stone-400 leading-relaxed font-serif">
               Connecting global textile trade with fashion innovation through authentic 
               Ajrak craftsmanship and sustainable practices.
@@ -61,9 +64,9 @@ export default function Footer() {
           <div>
             <h4 className="font-serif text-lg text-white mb-4">Contact</h4>
             <div className="space-y-2 text-stone-400 font-serif">
-              <p>saima@miraal.com</p>
-              <p>+91 98765 43210</p>
-              <p>Mumbai, India | Dubai, UAE</p>
+              <p>miraalapparelmarketing@outlook.com</p>
+              {/* <p>+91 98765 43210</p> */}
+              <p>India | UAE</p>
             </div>
           </div>
         </div>
@@ -73,7 +76,7 @@ export default function Footer() {
             © 2024 Miraal by Saima Shaikh. All rights reserved.
           </p>
           <p className="text-stone-400 text-sm flex items-center mt-4 md:mt-0 font-serif">
-            Made with <Heart className="w-4 h-4 mx-1 text-red-400" /> for sustainable fashion
+            Made with <Heart className="w-4 h-4 mx-1 text-red-400" /> for sustainable fashion & trade with fashion
           </p>
         </div>
       </div>

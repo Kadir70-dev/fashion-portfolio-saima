@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Card } from "./ui/card";
-import { Mail, Phone, MapPin, Instagram, Globe, Linkedin } from "lucide-react";
+import { Mail, MapPin, Instagram, Globe, Linkedin } from "lucide-react";
 import { useState } from "react";
 
 export default function Contact() {
@@ -33,38 +33,32 @@ export default function Contact() {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "saima@miraal.com",
-      href: "mailto:saima@miraal.com"
-    },
-    {
-      icon: <Phone className="w-5 h-5" />,
-      label: "Phone",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210"
+      value: "miraalapparelmarketing@outlook.com",
+      href: "mailto:miraalapparelmarketing@outlook.com"
     },
     {
       icon: <MapPin className="w-5 h-5" />,
       label: "Locations",
-      value: "Mumbai, India | Dubai, UAE",
+      value: "India |  UAE",
       href: null
     }
   ];
 
   const socialLinks = [
-    {
-      icon: <Instagram className="w-5 h-5" />,
-      label: "Instagram",
-      href: "#"
-    },
+    // {
+    //   icon: <Instagram className="w-5 h-5" />,
+    //   label: "Instagram",
+    //   href: "#" // agar Instagram ka link hai to yahan daal dena
+    // },
     {
       icon: <Globe className="w-5 h-5" />,
       label: "Website",
-      href: "#"
+      href: "http://www.miraal.in/"
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "#"
+      href: "https://www.linkedin.com/in/saima-shaikh-71125035b/"
     }
   ];
 
@@ -87,7 +81,7 @@ export default function Contact() {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg-grid-cols-2 gap-12">
           {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -198,6 +192,8 @@ export default function Contact() {
                   <a
                     key={index}
                     href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-10 h-10 bg-stone-100 rounded-full flex items-center justify-center text-stone-600 hover:bg-stone-200 transition-colors"
                     aria-label={social.label}
                   >

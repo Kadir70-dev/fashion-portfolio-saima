@@ -40,13 +40,15 @@ export default function Hero() {
           />
 
           <motion.p
-            className="text-lg md:text-xl text-stone-600 mb-12 max-w-2xl mx-auto leading-relaxed"
+            className="text-3xl md:text-5xl font-bold uppercase text-stone-800 mb-12 max-w-3xl mx-auto leading-relaxed tracking-wide"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Connecting Global Textile Trade with Fashion Innovation
+            GLOBAL TEXTILE
           </motion.p>
+
+          {/* Conncting Global Textile Trade with Fashion Innovation */}
 
           <motion.div
             className="flex flex-col sm:flex-row gap-4 justify-center"

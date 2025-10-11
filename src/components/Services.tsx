@@ -4,11 +4,11 @@ import { Building2, Users, Package, Handshake } from "lucide-react";
 
 export default function Services() {
   const services = [
-    {
-      icon: <Building2 className="w-6 h-6" />,
-      title: "Buyer Connections",
-      description: "Connect with verified international buyers seeking authentic Ajrak fabrics and traditional textiles for global markets"
-    },
+    // {
+    //   icon: <Building2 className="w-6 h-6" />,
+    //   title: "Buyer Connections",
+    //   description: "Connect with verified international buyers seeking authentic Ajrak fabrics and traditional textiles for global markets"
+    // },
     {
       icon: <Package className="w-6 h-6" />,
       title: "Sample Services",
